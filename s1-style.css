@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Noto+Sans+JP:wght@100..900&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Playwrite+HR+Guides&family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Noto+Sans+JP:wght@100..900&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Playwrite+HR+Guides&family=Poppins:wght@100;400&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Noto+Sans+JP:wght@100..900&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Playwrite+HR+Guides&family=Poppins:wght@100;400&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Great+Vibes&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Noto+Sans+JP:wght@100..900&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Playwrite+HR+Guides&family=Poppins:wght@100;400&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Comforter+Brush&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Great+Vibes&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Noto+Sans+JP:wght@100..900&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Playwrite+HR+Guides&family=Poppins:wght@100;400&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Comforter+Brush&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Great+Vibes&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Noto+Sans+JP:wght@100..900&family=Odibee+Sans&family=Oooh+Baby&family=Play&family=Playwrite+HR+Guides&family=Poppins:wght@100;400&family=Reggae+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Poppins:wght@100;400&display=swap');
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+#hd {
+    font-size: 6rem;
+    font-family: "Oooh Baby", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+#ru{
+    font-family: "Barlow Condensed", serif;
+}
+#hey{
+    font-family: "Marck Script", cursive;
+    font-size: 5.5rem;
+}
+#pseudo{
+    font-family: "Comforter Brush", cursive;
+}
+#space2{height: 55px}
+#bf22{font-size: 2.5rem;}
+#bf23{font-family: "Barlow Condensed", serif; font-size: 1rem;}
+#btn0:active{color: rgb(255, 195, 32);}
+#btn0:hover{color: rgb(69, 255, 32);}
+#btn0:visited{color: aqua;}
+
+.photo {
+    position: relative;
+    border-radius: 50%;
+    z-index: 2;
+}
+.photo-cont {
+    position: relative;
+    top: 0;
+    right: 50px;
+    width: 475px;
+    height: 475px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.photo-cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #2824ec,#2824ec, #000000, rgb(0, 0, 0), #000000, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+    z-index: 1;
+    animation: rotateee 13s linear infinite;
+}
+@keyframes rotateee {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.blue {
+    color: #2824ec;
+    text-shadow: 0 0 3px #2824ec;
+}
+.sticky-navbar {
+    height: 5em;
+    position: sticky;
+    color: #fff;
+}
+.sticky-navbar table tr td{
+    font-family: "Oooh Baby", system-ui;
+    font-size: 2.877rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #2824ec;
+}
+.sticky-navbar table tr td a{
+    font-family: "Oooh Baby", system-ui;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fff;
+}
+.sticky-navbar table tr td a:hover {
+    font-size: 2.1rem;
+    letter-spacing: 2.1px;
+    text-decoration: underline;
+    transition: .3s;
+}
+.first-floor{
+    position: relative;
+    height: 99vh;
+    table{
+        margin: auto;
+        td{
+            border-collapse: collapse;
+            /* border: 1px solid #fff; */
+            .bht{
+                margin: 20px 0 20px 0;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border: 1px solid #2824ec;
+                background-color: #2824ec;
+                a{
+                    text-decoration: none;
+                    font-size: 2.4rem;
+                    color: rgb(255, 255, 255);
+                    font-family: "Oooh Baby", system-ui;
+                }
+            }
+            .bht:hover{
+            box-shadow: 0 0 10px #2824ec;
+            transition: .5s;
+            }
+            .bht a:hover{
+                color: rgb(255, 255, 255);
+                transition: .5s;
+            }
+
+        }
+    }
+}
+
+.inf-container1 {
+    color: #2E373A;
+    background-color: #cbcbcb;
+    font-family: "Odibee Sans", sans-serif;
+    height: 200%;
+    box-shadow: 0 0 10px #cbcbcb, 0 0 40px #cbcbcb, 0 0 110px #cbcbcb;
+    .introduce {
+        text-align: center;
+        padding: 10px;
+        font-size: 9rem;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+}
+.inf-container2 {
+    color: #cbcbcb;
+    background-color: #2E373A;
+    font-family: "Odibee Sans", sans-serif;
+    height: 1560%;
+    box-shadow: 0 0 10px #2E373A, 0 0 40px #2E373A, 0 0 110px #2E373A;
+    .introduce {
+        text-align: center;
+        padding: 10px;
+        font-size: 9rem;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+}
+.inf-container3 {
+    color: #2E373A;
+    background-color: #cbcbcb;
+    font-family: "Odibee Sans", sans-serif;
+    box-shadow: 0 0 10px #cbcbcb, 0 0 40px #cbcbcb, 0 0 110px #cbcbcb;
+    .introduce {
+        text-align: center;
+        padding: 10px;
+        font-size: 9rem;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+}
+.inf-container4 {
+    color: #cbcbcb;
+    background-color: #000;
+    box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 110px #000000;
+    font-family: "Odibee Sans", sans-serif;
+    line-height: 2;
+    font-size: 1.3rem;
+    td{font-size: 2.5rem;}
+}
